@@ -5,8 +5,8 @@ import type { FeatureItem } from "~/types";
 
 const features: Array<FeatureItem> = [
   {
-    title: "100% refund",
-    description: "We don't mess around. If you don't like it we will refund it",
+    title: "Refund",
+    description: "We don't mess around. If you don't like it we will refund you",
     icon: "mdi:handshake",
   },
   {
@@ -15,9 +15,9 @@ const features: Array<FeatureItem> = [
     icon: "mdi:feather",
   },
   {
-    title: "Returns",
+    title: "Returns and Replacements",
     description:
-      "Feel like the size is not right ? Feel free to return it. (Returns are not available for innerwears)",
+      "Feel like the size is not right ? Feel free to return it. (Note that Returns may not be available for a few selected products)",
     icon: "mdi:directions-fork",
   },
   {
@@ -40,12 +40,15 @@ const features: Array<FeatureItem> = [
 ];
 ---
 
-<ContentSection title="Features" id="features">
-  <Fragment slot="lead">
+<ContentSection title="About us" id="features">
+  <!-- <Fragment slot="lead">
     <span class="text-primary">batteries included</span>. It takes the best
     parts of
     <span class="text-primary">state-of-the-art</span>
     tools and adds its own <span class="text-primary">innovations</span>.
+  </Fragment> -->
+  <Fragment slot="lead">
+    At PinkSlip, we believe that fashion should be accessible to everyone. We understand that personal style is a form of self-expression, and we aim to provide a diverse range of clothing options that cater to various tastes and preferences. Whether you're looking for chic and elegant pieces, edgy streetwear, or casual everyday essentials, we've got you covered.
   </Fragment>
   <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     {
