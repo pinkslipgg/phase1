@@ -1,0 +1,41 @@
+---
+import { TextSection } from '@littlesticks/odyssey-theme-components';
+import Layout from '../../layouts/Page.astro';
+import HeroSection from '../../components/sections/heros/HeroSection.astro';
+
+const seo = {
+	title: 'About | Astro Odyssey Theme',
+	description: 'About Page',
+};
+---
+
+<Layout {seo}>
+	<HeroSection>
+		<div slot="text-container">
+			<h1>About PinkSlip</h1>
+			<p>
+				Welcome to PinkSlip, where style meets affordability and consistent quality. We are a lifestyle startup that takes pride in curating a unique clothing lineup that blends styles from different themes, ensuring that you can express yourself authentically without breaking the bank.
+			</p>
+		</div>
+    <picture slot="image-container">
+      <img
+        src="/assets/images/home/classic-hero.jpg"
+        alt="Astro Odyssee"
+        id="home-hero-image"
+      />
+    </picture>
+	</HeroSection>
+  <TextSection narrow>
+    <p>
+      At PinkSlip, we believe that fashion should be accessible to everyone. We understand that personal style is a form of self-expression, and we aim to provide a diverse range of clothing options that cater to various tastes and preferences. Whether you're looking for chic and elegant pieces, edgy streetwear, or casual everyday essentials, we've got you covered.
+    </p>
+    <p>We carefully handpick each item in our collection, paying close attention to the latest trends and timeless classics. Our dedicated team of fashion enthusiasts is constantly on the lookout for innovative designs, quality fabrics, and comfortable fits. We believe that great style should never compromise on comfort, so we prioritize selecting garments that not only look fabulous but also feel amazing to wear.</p>
+    
+    <p>
+      One of our core values at PinkSlip is affordability. We strive to offer competitive prices without compromising on quality. We understand the importance of getting value for your money, and we work tirelessly to provide you with fashionable pieces that are well-made and built to last. Our commitment to consistent quality ensures that every item you purchase from PinkSlip meets the highest standards.
+    </p>
+    <p>
+      We take great pride in our customer-centric approach. Your satisfaction is our top priority, and we go the extra mile to ensure that your shopping experience with us is seamless and enjoyable. From our user-friendly website to our responsive customer support team, we're here to assist you every step of the way. Your feedback is invaluable to us, and we're continuously striving to improve and exceed your expectations.
+    </p>
+  </TextSection>
+</Layout>
