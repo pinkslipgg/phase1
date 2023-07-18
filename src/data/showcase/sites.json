@@ -1,32 +1,27 @@
 [
   {
     "title": "Iron Man",
-    "image": "./images/iRONMAN TSHIRT2.jpg",
-    "url": "https://www.youtube.com/watch?v=RYnFIRc0k6E&pp=ygUZcm9sbGluIHJvbGxpbiBsaW1wIGJpemtpdA%3D%3D"
+    "image": "./images/iRONMAN TSHIRT2.jpg"
   },
   {
     "title": "Ninjitsu",
-    "image": "./images/japanese theme.jpg",
-    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"
+    "image": "./images/japanese theme.jpg"
+
   },
   {
     "title": "One piece",
-    "image": "./images/ONE PIECE 4.jpg",
-    "url": "https://www.youtube.com/watch?v=iuJDhFRDx9M&pp=ygUQdG9reW8gZHJpZnQgc29uZw%3D%3D"
+    "image": "./images/ONE PIECE 4.jpg"
   },
   {
-    "title": "Chumpiece",
-    "image": "./images/one piece1.jpg",
-    "url": "https://www.youtube.com/watch?v=XCiDuy4mrWU&pp=ygUScnVubmluZyBpbiB0aGUgOTBz"
+    "title": "Bro-piece",
+    "image": "./images/one piece1.jpg"
   },
   {
-    "title": "Retroman",
-    "image": "./images/retro not sale design.jpg",
-    "url": "https://www.youtube.com/watch?v=dv13gl0a-FA&pp=ygUGZGVqYXZ1"
+    "title": "Hipster",
+    "image": "./images/retro not sale design.jpg"
   },
   {
     "title": "Here we go again",
-    "image": "./images/SAN ADNREAS1.jpg",
-    "url": "https://www.youtube.com/watch?v=Igq3d6XA75Y&pp=ygUKY2hpcHBpbiBpbg%3D%3D"
+    "image": "./images/SAN ADNREAS1.jpg"
   }
 ]
